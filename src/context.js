@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+  import React, { Component } from 'react';
 
 const Context = React.createContext();
 
@@ -35,4 +35,4 @@ export class Provider extends Component {
   }
 }
 
-export const Consuer = Context.Consumer;
+export const Consumer = Context.Consumer;
