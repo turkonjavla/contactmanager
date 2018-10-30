@@ -9,6 +9,7 @@ import { Provider } from './context';
 // Components
 import Contacts from './components/contacts/Contacts';
 import Header from './components/layout/Header';
+import About from './components/pages/About';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/" component={ Contacts } />
+                <Route exact path="/about" component={ About } />
               </Switch>
             </div>
           </div>
