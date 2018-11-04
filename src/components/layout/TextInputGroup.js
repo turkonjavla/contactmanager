@@ -11,7 +11,7 @@ const TextInputGroup = ({
 }) => {
   return (
     <div className="form-group">
-      <label htmlFor={ label }>Name</label>
+      <label htmlFor={ name }>{ label }</label>
       <input 
         type={ type } 
         name={ name }
